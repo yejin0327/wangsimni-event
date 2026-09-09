@@ -1,1 +1,1752 @@
-[]
+[
+  {
+    "category": "제모",
+    "name": "(여자) 겨드랑이/인중 제모(아포지 플러스) 체험가 44 % 500 원 900 원",
+    "price": 500,
+    "normal": 900,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.627692"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 겨드랑이/인중 제모(아포지 플러스) 1회 16 % 2,500 원 3,000 원",
+    "price": 2500,
+    "normal": 3000,
+    "discount": 16,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.628050"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 겨드랑이/인중 제모(아포지 플러스) 3회 23 % 6,900 원 9,000 원",
+    "price": 6900,
+    "normal": 9000,
+    "discount": 23,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.628356"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 겨드랑이/인중 제모(아포지 플러스) 5회 40 % 8,900 원 15,000 원",
+    "price": 8900,
+    "normal": 15000,
+    "discount": 40,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.628654"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 겨드랑이/인중 제모(아포지 플러스) 1년 구독권 49 % 9,900 원 19,700 원",
+    "price": 9900,
+    "normal": 19700,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.628963"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 입술밑 제모(아포지 플러스) 1회 37 % 6,900 원 11,000 원",
+    "price": 6900,
+    "normal": 11000,
+    "discount": 37,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.629261"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 입술밑 제모(아포지 플러스) 3회 42 % 19,000 원 33,000 원",
+    "price": 19000,
+    "normal": 33000,
+    "discount": 42,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.629556"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 입술밑 제모(아포지 플러스) 5회 47 % 29,000 원 55,000 원",
+    "price": 29000,
+    "normal": 55000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.629868"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 앞턱/미간 제모(아포지 플러스) 1회 15 % 4,900 원 5,800 원",
+    "price": 4900,
+    "normal": 5800,
+    "discount": 15,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.630165"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 앞턱/미간 제모(아포지 플러스) 3회 25 % 12,900 원 17,400 원",
+    "price": 12900,
+    "normal": 17400,
+    "discount": 25,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.630455"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 앞턱/미간 제모(아포지 플러스) 5회 48 % 14,900 원 29,000 원",
+    "price": 14900,
+    "normal": 29000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.630742"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 이중턱/턱라인 제모(아포지 플러스) 1회 23 % 29,000 원 38,000 원",
+    "price": 29000,
+    "normal": 38000,
+    "discount": 23,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.631046"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 이중턱/턱라인 제모(아포지 플러스) 3회 30 % 79,000 원 114,000 원",
+    "price": 79000,
+    "normal": 114000,
+    "discount": 30,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.631336"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 이중턱/턱라인 제모(아포지 플러스) 5회 47 % 99,000 원 190,000 원",
+    "price": 99000,
+    "normal": 190000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.631625"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 양볼/이마 제모(아포지 플러스) 1회 34 % 25,000 원 38,000 원",
+    "price": 25000,
+    "normal": 38000,
+    "discount": 34,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.631931"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 양볼/이마 제모(아포지 플러스) 3회 39 % 69,000 원 114,000 원",
+    "price": 69000,
+    "normal": 114000,
+    "discount": 39,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.632223"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 양볼/이마 제모(아포지 플러스) 5회 47 % 99,000 원 190,000 원",
+    "price": 99000,
+    "normal": 190000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.632510"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 눈썹위/아래 제모(아포지 플러스) 1회 34 % 9,900 원 15,000 원",
+    "price": 9900,
+    "normal": 15000,
+    "discount": 34,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.632808"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 눈썹위/아래 제모(아포지 플러스) 3회 35 % 29,000 원 45,000 원",
+    "price": 29000,
+    "normal": 45000,
+    "discount": 35,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.633095"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 눈썹위/아래 제모(아포지 플러스) 5회 48 % 39,000 원 75,000 원",
+    "price": 39000,
+    "normal": 75000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.633379"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 구렛나루 제모(아포지 플러스) 1회 23 % 29,000 원 38,000 원",
+    "price": 29000,
+    "normal": 38000,
+    "discount": 23,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.633678"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 구렛나루 제모(아포지 플러스) 3회 30 % 79,000 원 114,000 원",
+    "price": 79000,
+    "normal": 114000,
+    "discount": 30,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.633985"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 구렛나루 제모(아포지 플러스) 5회 47 % 99,000 원 190,000 원",
+    "price": 99000,
+    "normal": 190000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.634276"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 헤어라인 제모(아포지 플러스) 1회 35 % 29,000 원 45,000 원",
+    "price": 29000,
+    "normal": 45000,
+    "discount": 35,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.634562"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 헤어라인 제모(아포지 플러스) 3회 41 % 79,000 원 135,000 원",
+    "price": 79000,
+    "normal": 135000,
+    "discount": 41,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.634863"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 헤어라인 제모(아포지 플러스) 5회 42 % 129,000 원 225,000 원",
+    "price": 129000,
+    "normal": 225000,
+    "discount": 42,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.635154"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 뒷목 제모(아포지 플러스) 1회 35 % 25,000 원 39,000 원",
+    "price": 25000,
+    "normal": 39000,
+    "discount": 35,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.635436"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 뒷목 제모(아포지 플러스) 3회 41 % 69,000 원 117,000 원",
+    "price": 69000,
+    "normal": 117000,
+    "discount": 41,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.635722"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 뒷목 제모(아포지 플러스) 5회 49 % 99,000 원 195,000 원",
+    "price": 99000,
+    "normal": 195000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.636027"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 얼굴전체 제모(아포지 플러스) 1회 40 % 39,000 원 65,000 원",
+    "price": 39000,
+    "normal": 65000,
+    "discount": 40,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.636318"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 얼굴전체 제모(아포지 플러스) 3회 44 % 109,000 원 195,000 원",
+    "price": 109000,
+    "normal": 195000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.636608"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 얼굴전체 제모(아포지 플러스) 5회 48 % 169,000 원 325,000 원",
+    "price": 169000,
+    "normal": 325000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.636913"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 레이저 제모 비접촉식 아포지 플러스 제모로 깔끔하게",
+    "price": 8900,
+    "normal": 17400,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.638318"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔하완/팔상완 제모(아포지 플러스) 체험가 48 % 8,900 원 17,400 원",
+    "price": 8900,
+    "normal": 17400,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.638612"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔하완 제모(아포지 플러스) 1회 24 % 19,000 원 25,000 원",
+    "price": 19000,
+    "normal": 25000,
+    "discount": 24,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.638919"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔하완 제모(아포지 플러스) 3회 26 % 55,000 원 75,000 원",
+    "price": 55000,
+    "normal": 75000,
+    "discount": 26,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.639213"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔하완 제모(아포지 플러스) 5회 36 % 79,000 원 125,000 원",
+    "price": 79000,
+    "normal": 125000,
+    "discount": 36,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.639501"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔하완 제모(아포지 플러스) 1년 구독권 49 % 149,000 원 297,000 원",
+    "price": 149000,
+    "normal": 297000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.639797"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔상완 제모(아포지 플러스) 1회 37 % 24,900 원 40,000 원",
+    "price": 24900,
+    "normal": 40000,
+    "discount": 37,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.640087"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔상완 제모(아포지 플러스) 3회 42 % 69,000 원 120,000 원",
+    "price": 69000,
+    "normal": 120000,
+    "discount": 42,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.640373"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔상완 제모(아포지 플러스) 5회 45 % 109,000 원 200,000 원",
+    "price": 109000,
+    "normal": 200000,
+    "discount": 45,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.640653"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔전체 제모(아포지 플러스) 1회 29 % 39,000 원 55,000 원",
+    "price": 39000,
+    "normal": 55000,
+    "discount": 29,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.640952"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔전체 제모(아포지 플러스) 3회 33 % 109,000 원 165,000 원",
+    "price": 109000,
+    "normal": 165000,
+    "discount": 33,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.641244"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 팔전체 제모(아포지 플러스) 5회 49 % 139,000 원 275,000 원",
+    "price": 139000,
+    "normal": 275000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.641526"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 손등/손가락 제모(아포지 플러스) 1회 10 % 9,900 원 11,000 원",
+    "price": 9900,
+    "normal": 11000,
+    "discount": 10,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.641826"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 손등/손가락 제모(아포지 플러스) 3회 39 % 19,900 원 33,000 원",
+    "price": 19900,
+    "normal": 33000,
+    "discount": 39,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.642115"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 손등/손가락 제모(아포지 플러스) 5회 49 % 23,900 원 47,700 원",
+    "price": 23900,
+    "normal": 47700,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.642399"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 종아리 + 무릎 제모(아포지 플러스) 체험가 48 % 8,900 원 17,400 원",
+    "price": 8900,
+    "normal": 17400,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.644487"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 종아리 + 무릎 제모(아포지 플러스) 1회 35 % 29,000 원 45,000 원",
+    "price": 29000,
+    "normal": 45000,
+    "discount": 35,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.644785"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 종아리 + 무릎 제모(아포지 플러스) 3회 41 % 79,000 원 135,000 원",
+    "price": 79000,
+    "normal": 135000,
+    "discount": 41,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.645083"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 종아리 + 무릎 제모(아포지 플러스) 5회 42 % 129,000 원 225,000 원",
+    "price": 129000,
+    "normal": 225000,
+    "discount": 42,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.645371"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 종아리 + 무릎 제모(아포지 플러스) 1년 구독권 49 % 219,000 원 437,000 원",
+    "price": 219000,
+    "normal": 437000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.645660"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 허벅지 제모(아포지 플러스) 1회 30 % 49,000 원 70,000 원",
+    "price": 49000,
+    "normal": 70000,
+    "discount": 30,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.645964"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 허벅지 제모(아포지 플러스) 3회 33 % 139,000 원 210,000 원",
+    "price": 139000,
+    "normal": 210000,
+    "discount": 33,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.646253"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 허벅지 제모(아포지 플러스) 5회 43 % 199,000 원 350,000 원",
+    "price": 199000,
+    "normal": 350000,
+    "discount": 43,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.646540"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 허벅지 제모(아포지 플러스) 1년 구독권 49 % 319,000 원 637,000 원",
+    "price": 319000,
+    "normal": 637000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.646837"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 다리전체 제모(아포지 플러스) 1회 31 % 69,000 원 100,000 원",
+    "price": 69000,
+    "normal": 100000,
+    "discount": 31,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.647129"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 다리전체 제모(아포지 플러스) 3회 33 % 199,000 원 300,000 원",
+    "price": 199000,
+    "normal": 300000,
+    "discount": 33,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.647415"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 다리전체 제모(아포지 플러스) 5회 44 % 279,000 원 500,000 원",
+    "price": 279000,
+    "normal": 500000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.647700"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 다리전체 제모(아포지 플러스) 1년 구독권 49 % 429,000 원 857,000 원",
+    "price": 429000,
+    "normal": 857000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.648000"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 무릎 제모(아포지 플러스) 1회 10 % 9,900 원 11,000 원",
+    "price": 9900,
+    "normal": 11000,
+    "discount": 10,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.648284"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 무릎 제모(아포지 플러스) 3회 39 % 19,900 원 33,000 원",
+    "price": 19900,
+    "normal": 33000,
+    "discount": 39,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.648570"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 무릎 제모(아포지 플러스) 5회 49 % 23,900 원 47,700 원",
+    "price": 23900,
+    "normal": 47700,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.648878"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 발등/발가락 제모(아포지 플러스) 1회 10 % 9,900 원 11,000 원",
+    "price": 9900,
+    "normal": 11000,
+    "discount": 10,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.649165"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 발등/발가락 제모(아포지 플러스) 3회 39 % 19,900 원 33,000 원",
+    "price": 19900,
+    "normal": 33000,
+    "discount": 39,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.649450"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 발등/발가락 제모(아포지 플러스) 5회 49 % 23,900 원 47,700 원",
+    "price": 23900,
+    "normal": 47700,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.649729"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 브라질리언 + 항문 제모(아포지 플러스) 체험가 49 % 29,000 원 57,900 원",
+    "price": 29000,
+    "normal": 57900,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.650351"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 브라질리언 제모(아포지 플러스) 1회 26 % 59,000 원 80,000 원",
+    "price": 59000,
+    "normal": 80000,
+    "discount": 26,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.650640"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 브라질리언 제모(아포지 플러스) 3회 29 % 169,000 원 240,000 원",
+    "price": 169000,
+    "normal": 240000,
+    "discount": 29,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.650943"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 브라질리언 제모(아포지 플러스) 5회 40 % 239,000 원 400,000 원",
+    "price": 239000,
+    "normal": 400000,
+    "discount": 40,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.651231"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 브라질리언 + 항문 제모(아포지 플러스) 1회 37 % 69,000 원 110,000 원",
+    "price": 69000,
+    "normal": 110000,
+    "discount": 37,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.651517"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 브라질리언 + 항문 제모(아포지 플러스) 3회 39 % 199,000 원 330,000 원",
+    "price": 199000,
+    "normal": 330000,
+    "discount": 39,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.651819"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 브라질리언 + 항문 제모(아포지 플러스) 5회 47 % 290,000 원 550,000 원",
+    "price": 290000,
+    "normal": 550000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.652108"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 브라질리언 + 항문 제모(아포지 플러스) 1년 구독권 49 % 590,000 원 1,179,000 원",
+    "price": 590000,
+    "normal": 1179000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.652394"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 비키니라인 제모(아포지 플러스) 1회 12 % 29,000 원 33,000 원",
+    "price": 29000,
+    "normal": 33000,
+    "discount": 12,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.652675"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 비키니라인 제모(아포지 플러스) 3회 30 % 69,000 원 99,000 원",
+    "price": 69000,
+    "normal": 99000,
+    "discount": 30,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.652975"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 비키니라인 제모(아포지 플러스) 5회 46 % 89,000 원 165,000 원",
+    "price": 89000,
+    "normal": 165000,
+    "discount": 46,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.653264"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 비키니라인 제모(아포지 플러스) 1년 구독권 49 % 149,000 원 297,000 원",
+    "price": 149000,
+    "normal": 297000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.653554"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 회음부/항문/사타구니/엉덩이 제모(아포지 플러스) 1회 17 % 29,000 원 35,000 원",
+    "price": 29000,
+    "normal": 35000,
+    "discount": 17,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.653888"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 회음부/항문/사타구니/엉덩이 제모(아포지 플러스) 3회 24 % 79,000 원 105,000 원",
+    "price": 79000,
+    "normal": 105000,
+    "discount": 24,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.654180"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 회음부/항문/사타구니/엉덩이 제모(아포지 플러스) 5회 49 % 89,000 원 175,000 원",
+    "price": 89000,
+    "normal": 175000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.654464"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 배/가슴/어깨라인 제모(아포지 플러스) 1회 40 % 39,000 원 65,000 원",
+    "price": 39000,
+    "normal": 65000,
+    "discount": 40,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.654748"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 배/가슴/어깨라인 제모(아포지 플러스) 3회 44 % 109,000 원 195,000 원",
+    "price": 109000,
+    "normal": 195000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.655045"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 배/가슴/어깨라인 제모(아포지 플러스) 5회 44 % 179,000 원 325,000 원",
+    "price": 179000,
+    "normal": 325000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.655330"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 등 상부/하부 제모(아포지 플러스) 1회 40 % 39,000 원 65,000 원",
+    "price": 39000,
+    "normal": 65000,
+    "discount": 40,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.655615"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 등 상부/하부 제모(아포지 플러스) 3회 44 % 109,000 원 195,000 원",
+    "price": 109000,
+    "normal": 195000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.655916"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 등 상부/하부 제모(아포지 플러스) 5회 44 % 179,000 원 325,000 원",
+    "price": 179000,
+    "normal": 325000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.656202"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 배렛나루/배꼽주위/유륜 제모(아포지 플러스) 1회 23 % 29,000 원 38,000 원",
+    "price": 29000,
+    "normal": 38000,
+    "discount": 23,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.656487"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 배렛나루/배꼽주위/유륜 제모(아포지 플러스) 3회 30 % 79,000 원 114,000 원",
+    "price": 79000,
+    "normal": 114000,
+    "discount": 30,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.656784"
+  },
+  {
+    "category": "제모",
+    "name": "(여자) 배렛나루/배꼽주위/유륜 제모(아포지 플러스) 5회 47 % 99,000 원 190,000 원",
+    "price": 99000,
+    "normal": 190000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.657072"
+  },
+  {
+    "category": "제모",
+    "name": "옵션1) 사타구니 제모 5회 추가 89,000 원",
+    "price": 89000,
+    "normal": null,
+    "discount": null,
+    "option": true,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.657265"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 겨드랑이/인중 제모(아포지 플러스) 체험가 49 % 1,000 원 1,990 원",
+    "price": 1000,
+    "normal": 1990,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.658041"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 겨드랑이/인중 제모(아포지 플러스) 1회 25 % 9,000 원 12,000 원",
+    "price": 9000,
+    "normal": 12000,
+    "discount": 25,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.658327"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 겨드랑이/인중 제모(아포지 플러스) 3회 30 % 24,900 원 36,000 원",
+    "price": 24900,
+    "normal": 36000,
+    "discount": 30,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.658608"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 겨드랑이/인중 제모(아포지 플러스) 5회 41 % 34,900 원 60,000 원",
+    "price": 34900,
+    "normal": 60000,
+    "discount": 41,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.658909"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 겨드랑이/인중 제모(아포지 플러스) 1년 구독권 49 % 69,000 원 137,000 원",
+    "price": 69000,
+    "normal": 137000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.659199"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 입술밑 제모(아포지 플러스) 1회 34 % 9,900 원 15,000 원",
+    "price": 9900,
+    "normal": 15000,
+    "discount": 34,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.659483"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 입술밑 제모(아포지 플러스) 3회 35 % 29,000 원 45,000 원",
+    "price": 29000,
+    "normal": 45000,
+    "discount": 35,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.659776"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 입술밑 제모(아포지 플러스) 5회 48 % 39,000 원 75,000 원",
+    "price": 39000,
+    "normal": 75000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.660065"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 턱라인 제모(아포지 플러스) 1회 11 % 15,000 원 17,000 원",
+    "price": 15000,
+    "normal": 17000,
+    "discount": 11,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.660360"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 턱라인 제모(아포지 플러스) 3회 23 % 39,000 원 51,000 원",
+    "price": 39000,
+    "normal": 51000,
+    "discount": 23,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.660649"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 턱라인 제모(아포지 플러스) 5회 47 % 45,000 원 85,000 원",
+    "price": 45000,
+    "normal": 85000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.660952"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 턱끝 제모(아포지 플러스) 1회 29 % 16,900 원 24,000 원",
+    "price": 16900,
+    "normal": 24000,
+    "discount": 29,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.661241"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 턱끝 제모(아포지 플러스) 3회 31 % 49,000 원 72,000 원",
+    "price": 49000,
+    "normal": 72000,
+    "discount": 31,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.661524"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 턱끝 제모(아포지 플러스) 5회 42 % 69,000 원 120,000 원",
+    "price": 69000,
+    "normal": 120000,
+    "discount": 42,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.661822"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 이중턱/뒷목 제모(아포지 플러스) 1회 7 % 39,000 원 42,000 원",
+    "price": 39000,
+    "normal": 42000,
+    "discount": 7,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.662110"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 이중턱/뒷목 제모(아포지 플러스) 3회 21 % 99,000 원 126,000 원",
+    "price": 99000,
+    "normal": 126000,
+    "discount": 21,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.662401"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 이중턱/뒷목 제모(아포지 플러스) 5회 48 % 109,000 원 210,000 원",
+    "price": 109000,
+    "normal": 210000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.662686"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 양볼 제모(아포지 플러스) 1회 26 % 19,000 원 26,000 원",
+    "price": 19000,
+    "normal": 26000,
+    "discount": 26,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.662985"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 양볼 제모(아포지 플러스) 3회 37 % 49,000 원 78,000 원",
+    "price": 49000,
+    "normal": 78000,
+    "discount": 37,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.663274"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 양볼 제모(아포지 플러스) 5회 46 % 69,000 원 130,000 원",
+    "price": 69000,
+    "normal": 130000,
+    "discount": 46,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.663556"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 인중 + 턱끝 제모(아포지 플러스) 1회 36 % 19,000 원 30,000 원",
+    "price": 19000,
+    "normal": 30000,
+    "discount": 36,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.663867"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 인중 + 턱끝 제모(아포지 플러스) 3회 45 % 49,000 원 90,000 원",
+    "price": 49000,
+    "normal": 90000,
+    "discount": 45,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.664157"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 인중 + 턱끝 제모(아포지 플러스) 5회 47 % 79,000 원 150,000 원",
+    "price": 79000,
+    "normal": 150000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.664442"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 인중 + 턱끝 제모(아포지 플러스) 1년 구독권 49 % 149,000 원 297,000 원",
+    "price": 149000,
+    "normal": 297000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.664724"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 인중 + 턱라인 + 이중턱 + 턱끝 + 양볼 + 구렛나루 제모(아포지 플러스) 체험가 46 % 8,900 원 16,500 원",
+    "price": 8900,
+    "normal": 16500,
+    "discount": 46,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.665027"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 인중 + 턱라인 + 이중턱 + 턱끝 + 양볼 + 구렛나루 제모(아포지 플러스) 1회 29 % 39,000 원 55,000 원",
+    "price": 39000,
+    "normal": 55000,
+    "discount": 29,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.665315"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 인중 + 턱라인 + 이중턱 + 턱끝 + 양볼 + 구렛나루 제모(아포지 플러스) 3회 33 % 109,000 원 165,000 원",
+    "price": 109000,
+    "normal": 165000,
+    "discount": 33,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.665604"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 인중 + 턱라인 + 이중턱 + 턱끝 + 양볼 + 구렛나루 제모(아포지 플러스) 5회 42 % 159,000 원 275,000 원",
+    "price": 159000,
+    "normal": 275000,
+    "discount": 42,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.665907"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 눈썹위/아래/미간/구렛나루 제모(아포지 플러스) 1회 17 % 19,000 원 23,000 원",
+    "price": 19000,
+    "normal": 23000,
+    "discount": 17,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.666199"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 눈썹위/아래/미간/구렛나루 제모(아포지 플러스) 3회 37 % 49,000 원 78,000 원",
+    "price": 49000,
+    "normal": 78000,
+    "discount": 37,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.666486"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 눈썹위/아래/미간/구렛나루 제모(아포지 플러스) 5회 48 % 59,000 원 115,000 원",
+    "price": 59000,
+    "normal": 115000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.666782"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 이마 제모(아포지 플러스) 1회 9 % 39,000 원 43,000 원",
+    "price": 39000,
+    "normal": 43000,
+    "discount": 9,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.667076"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 이마 제모(아포지 플러스) 3회 31 % 89,000 원 129,000 원",
+    "price": 89000,
+    "normal": 129000,
+    "discount": 31,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.667364"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 이마 제모(아포지 플러스) 5회 49 % 109,000 원 215,000 원",
+    "price": 109000,
+    "normal": 215000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.667650"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 얼굴전체 제모(아포지 플러스) 1회 31 % 69,000 원 100,000 원",
+    "price": 69000,
+    "normal": 100000,
+    "discount": 31,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.667998"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 얼굴전체 제모(아포지 플러스) 3회 33 % 199,000 원 300,000 원",
+    "price": 199000,
+    "normal": 300000,
+    "discount": 33,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.668326"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 얼굴전체 제모(아포지 플러스) 5회 42 % 290,000 원 500,000 원",
+    "price": 290000,
+    "normal": 500000,
+    "discount": 42,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.668643"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 얼굴전체 제모(아포지 플러스) 1년 구독권 49 % 390,000 원 779,000 원",
+    "price": 390000,
+    "normal": 779000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.668971"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 레이저 제모 비접촉식 아포지 플러스 제모로 깔끔하게",
+    "price": 39000,
+    "normal": 50000,
+    "discount": 22,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.670079"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 팔하완/팔상완 제모(아포지 플러스) 1회 22 % 39,000 원 50,000 원",
+    "price": 39000,
+    "normal": 50000,
+    "discount": 22,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.670367"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 팔하완/팔상완 제모(아포지 플러스) 3회 27 % 109,000 원 150,000 원",
+    "price": 109000,
+    "normal": 150000,
+    "discount": 27,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.670651"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 팔하완/팔상완 제모(아포지 플러스) 5회 44 % 139,000 원 250,000 원",
+    "price": 139000,
+    "normal": 250000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.670950"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 팔하완/팔상완 제모(아포지 플러스) 1년 구독권 49 % 249,000 원 497,000 원",
+    "price": 249000,
+    "normal": 497000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.671239"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 팔전체 제모(아포지 플러스) 1회 42 % 49,000 원 85,000 원",
+    "price": 49000,
+    "normal": 85000,
+    "discount": 42,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.671526"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 팔전체 제모(아포지 플러스) 3회 45 % 139,000 원 255,000 원",
+    "price": 139000,
+    "normal": 255000,
+    "discount": 45,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.671835"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 팔전체 제모(아포지 플러스) 5회 48 % 219,000 원 425,000 원",
+    "price": 219000,
+    "normal": 425000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.672125"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 손등/손가락 제모(아포지 플러스) 1회 29 % 19,000 원 27,000 원",
+    "price": 19000,
+    "normal": 27000,
+    "discount": 29,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.672410"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 손등/손가락 제모(아포지 플러스) 3회 39 % 49,000 원 81,000 원",
+    "price": 49000,
+    "normal": 81000,
+    "discount": 39,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.672695"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 손등/손가락 제모(아포지 플러스) 5회 48 % 69,000 원 135,000 원",
+    "price": 69000,
+    "normal": 135000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.673039"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 레이저 제모 비접촉식 아포지 플러스 제모로 깔끔하게",
+    "price": 49000,
+    "normal": 75000,
+    "discount": 34,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.674493"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 종아리 + 무릎 제모(아포지 플러스) 1회 34 % 49,000 원 75,000 원",
+    "price": 49000,
+    "normal": 75000,
+    "discount": 34,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.674795"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 종아리 + 무릎 제모(아포지 플러스) 3회 38 % 139,000 원 225,000 원",
+    "price": 139000,
+    "normal": 225000,
+    "discount": 38,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.675093"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 종아리 + 무릎 제모(아포지 플러스) 5회 41 % 219,000 원 375,000 원",
+    "price": 219000,
+    "normal": 375000,
+    "discount": 41,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.675376"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 종아리 + 무릎 제모(아포지 플러스) 1년 구독권 49 % 249,000 원 497,000 원",
+    "price": 249000,
+    "normal": 497000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.675657"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 허벅지 제모(아포지 플러스) 1회 31 % 69,000 원 100,000 원",
+    "price": 69000,
+    "normal": 100000,
+    "discount": 31,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.675954"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 허벅지 제모(아포지 플러스) 3회 33 % 199,000 원 300,000 원",
+    "price": 199000,
+    "normal": 300000,
+    "discount": 33,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.676242"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 허벅지 제모(아포지 플러스) 5회 36 % 319,000 원 500,000 원",
+    "price": 319000,
+    "normal": 500000,
+    "discount": 36,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.676530"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 허벅지 제모(아포지 플러스) 1년 구독권 49 % 349,000 원 697,000 원",
+    "price": 349000,
+    "normal": 697000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.676831"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 다리전체 제모(아포지 플러스) 1회 36 % 89,000 원 140,000 원",
+    "price": 89000,
+    "normal": 140000,
+    "discount": 36,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.677121"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 다리전체 제모(아포지 플러스) 3회 40 % 249,000 원 420,000 원",
+    "price": 249000,
+    "normal": 420000,
+    "discount": 40,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.677407"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 다리전체 제모(아포지 플러스) 5회 44 % 390,000 원 700,000 원",
+    "price": 390000,
+    "normal": 700000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.677690"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 다리전체 제모(아포지 플러스) 1년 구독권 49 % 429,000 원 857,000 원",
+    "price": 429000,
+    "normal": 857000,
+    "discount": 49,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.677996"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 발등/발가락 제모(아포지 플러스) 1회 29 % 19,000 원 27,000 원",
+    "price": 19000,
+    "normal": 27000,
+    "discount": 29,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.678285"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 발등/발가락 제모(아포지 플러스) 3회 39 % 49,000 원 81,000 원",
+    "price": 49000,
+    "normal": 81000,
+    "discount": 39,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.678574"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 발등/발가락 제모(아포지 플러스) 5회 48 % 69,000 원 135,000 원",
+    "price": 69000,
+    "normal": 135000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.678873"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 레이저 제모 비접촉식 아포지 플러스 제모로 깔끔하게",
+    "price": 99000,
+    "normal": 140000,
+    "discount": 29,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.681158"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 브라질리언 제모(아포지 플러스) 1회 29 % 99,000 원 140,000 원",
+    "price": 99000,
+    "normal": 140000,
+    "discount": 29,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.681492"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 브라질리언 제모(아포지 플러스) 3회 30 % 290,000 원 420,000 원",
+    "price": 290000,
+    "normal": 420000,
+    "discount": 30,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.681815"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 브라질리언 제모(아포지 플러스) 5회 44 % 390,000 원 700,000 원",
+    "price": 390000,
+    "normal": 700000,
+    "discount": 44,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.682113"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 브라질리언 + 항문 제모(아포지 플러스) 1회 32 % 129,000 원 190,000 원",
+    "price": 129000,
+    "normal": 190000,
+    "discount": 32,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.682405"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 브라질리언 + 항문 제모(아포지 플러스) 3회 33 % 379,000 원 570,000 원",
+    "price": 379000,
+    "normal": 570000,
+    "discount": 33,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.682692"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 브라질리언 + 항문 제모(아포지 플러스) 5회 48 % 490,000 원 950,000 원",
+    "price": 490000,
+    "normal": 950000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.682995"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 배/가슴 제모(아포지 플러스) 1회 43 % 39,000 원 69,000 원",
+    "price": 39000,
+    "normal": 69000,
+    "discount": 43,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.683286"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 배/가슴 제모(아포지 플러스) 3회 47 % 109,000 원 207,000 원",
+    "price": 109000,
+    "normal": 207000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.683577"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 배/가슴 제모(아포지 플러스) 5회 48 % 179,000 원 345,000 원",
+    "price": 179000,
+    "normal": 345000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.683892"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 등 상부/하부 제모(아포지 플러스) 1회 43 % 39,000 원 69,000 원",
+    "price": 39000,
+    "normal": 69000,
+    "discount": 43,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.684187"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 등 상부/하부 제모(아포지 플러스) 3회 47 % 109,000 원 207,000 원",
+    "price": 109000,
+    "normal": 207000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.684477"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 등 상부/하부 제모(아포지 플러스) 5회 48 % 179,000 원 345,000 원",
+    "price": 179000,
+    "normal": 345000,
+    "discount": 48,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.684769"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 배렛나루/유륜 제모(아포지 플러스) 1회 18 % 49,000 원 60,000 원",
+    "price": 49000,
+    "normal": 60000,
+    "discount": 18,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.685062"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 배렛나루/유륜 제모(아포지 플러스) 3회 28 % 129,000 원 180,000 원",
+    "price": 129000,
+    "normal": 180000,
+    "discount": 28,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.685350"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 배렛나루/유륜 제모(아포지 플러스) 5회 47 % 159,000 원 300,000 원",
+    "price": 159000,
+    "normal": 300000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.685641"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 항문/회음부/사타구니/엉덩이 제모(아포지 플러스) 1회 27 % 69,000 원 95,000 원",
+    "price": 69000,
+    "normal": 95000,
+    "discount": 27,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.685946"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 항문/회음부/사타구니/엉덩이 제모(아포지 플러스) 3회 30 % 199,000 원 285,000 원",
+    "price": 199000,
+    "normal": 285000,
+    "discount": 30,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.686238"
+  },
+  {
+    "category": "제모",
+    "name": "(남자) 항문/회음부/사타구니/엉덩이 제모(아포지 플러스) 5회 47 % 249,000 원 475,000 원",
+    "price": 249000,
+    "normal": 475000,
+    "discount": 47,
+    "option": false,
+    "source": "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6",
+    "collected_at": "2026-09-09T07:35:05.686523"
+  }
+]
