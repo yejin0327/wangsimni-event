@@ -8,7 +8,6 @@ from bs4 import BeautifulSoup
 
 
 BASE_URL = "https://www.velyb.kr/community/community01.php"
-
 OUTPUT = Path("events.json")
 
 HEADERS = {
@@ -17,12 +16,11 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/140.0 Safari/537.36"
     ),
-    "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
+    "Accept-Language": "ko-KR,ko;q=0.9",
 }
 
 
 CATEGORIES = {
-    0: "전체",
     1: "기획전",
     2: "쁘띠성형",
     3: "피부",
@@ -39,16 +37,14 @@ def clean(text):
     return text.strip()
 
 
-def get_page(category_id):
-    params = {
-        "tb": "event_multi",
-        "etc5": "왕십리점",
-        "sField": str(category_id),
-    }
-
+def fetch(category_id):
     response = requests.get(
         BASE_URL,
-        params=params,
+        params={
+            "tb": "event_multi",
+            "etc5": "왕십리점",
+            "sField": category_id,
+        },
         headers=HEADERS,
         timeout=30,
     )
@@ -59,120 +55,69 @@ def get_page(category_id):
     return response.text
 
 
-def get_lines(html):
-    soup = BeautifulSoup(html, "html.parser")
-
-    for tag in soup.find_all(
-        ["script", "style", "noscript"]
-    ):
-        tag.decompose()
-
-    text = soup.get_text("\n")
-
-    lines = []
-
-    for line in text.splitlines():
-        line = clean(line)
-
-        if line:
-            lines.append(line)
-
-    return lines
-
-
-def parse_discount_price(text):
+def price_info(text):
     """
+    할인율 + 이벤트가 + 정상가
+
     예:
-    42% 99,000원 ~~171,000~~원
-
-    반환:
-    discount = 42
-    price = 99000
-    normal = 171000
+    48% 12,900원 ~~25,200~~원
     """
 
-    pattern = re.search(
+    m = re.search(
         r"(\d+)\s*%\s*"
         r"([\d,]+)\s*원"
         r"(?:\s*~~\s*([\d,]+)\s*~~\s*원)?",
         text,
     )
 
-    if not pattern:
-        return None
+    if m:
+        return {
+            "discount": int(m.group(1)),
+            "price": int(
+                m.group(2).replace(",", "")
+            ),
+            "normal": (
+                int(
+                    m.group(3).replace(",", "")
+                )
+                if m.group(3)
+                else None
+            ),
+        }
 
-    return {
-        "discount": int(pattern.group(1)),
-        "price": int(
-            pattern.group(2).replace(",", "")
-        ),
-        "normal": (
-            int(pattern.group(3).replace(",", ""))
-            if pattern.group(3)
-            else None
-        ),
-    }
-
-
-def parse_plain_price(text):
-    """
-    예:
-    129,000원
-    """
-
-    match = re.search(
-        r"([\d,]+)\s*원",
+    # 옵션처럼 할인율이 없는 가격
+    m = re.search(
+        r"^([\d,]+)\s*원$",
         text,
     )
 
-    if not match:
-        return None
+    if m:
+        return {
+            "discount": None,
+            "price": int(
+                m.group(1).replace(",", "")
+            ),
+            "normal": None,
+        }
 
-    return int(
-        match.group(1).replace(",", "")
-    )
-
-
-def is_price_line(text):
-    return bool(
-        re.search(
-            r"\d[\d,]*\s*원",
-            text
-        )
-    )
+    return None
 
 
-def is_discount_line(text):
-    return bool(
-        re.search(
-            r"\d+\s*%\s*[\d,]+\s*원",
-            text
-        )
-    )
-
-
-def looks_like_treatment_name(text):
+def useless_line(text):
     """
-    실제 시술명인지 판단합니다.
+    상품명이 아닌 UI/설명 문구인지 확인
     """
 
     if not text:
-        return False
+        return True
 
-    if len(text) < 2 or len(text) > 250:
-        return False
-
-    # 가격 줄
-    if is_price_line(text):
-        return False
-
-    # UI 문구
-    ignore = [
+    bad = [
         "왕십리점",
-        "보기 토글",
         "지점안내",
         "온라인상담",
         "전화상담신청",
+        "보기 토글",
+        "패키지 보기 토글",
         "전체시술",
         "기획전",
         "쁘띠성형",
@@ -181,62 +126,129 @@ def looks_like_treatment_name(text):
         "부스터",
         "제모",
         "비만",
-        "NEW",
+        "로그인",
+        "회원가입",
         "EVENT",
-        "Image:",
-        "이미지",
+        "NEW",
     ]
 
-    if text in ignore:
-        return False
+    if text in bad:
+        return True
 
-    # 설명 문구
     if text.startswith("※"):
-        return False
-
-    if text.startswith("피부 상태"):
-        return False
-
-    if text.startswith("기존의"):
-        return False
-
-    if text.startswith("극초단파"):
-        return False
-
-    if text.startswith("피부 깊은층"):
-        return False
-
-    if text.startswith("늘어진 피부"):
-        return False
+        return True
 
     # 날짜
     if re.fullmatch(
         r"\d{4}-\d{2}-\d{2}까지",
-        text
+        text,
     ):
-        return False
+        return True
 
-    return True
+    # 가격 자체
+    if price_info(text):
+        return True
+
+    # 너무 긴 설명문
+    if len(text) > 180:
+        return True
+
+    return False
 
 
-def extract_events(html, category_id):
+def get_text_lines(html):
+    soup = BeautifulSoup(
+        html,
+        "html.parser",
+    )
+
+    for tag in soup.find_all(
+        ["script", "style", "noscript"]
+    ):
+        tag.decompose()
+
+    lines = []
+
+    for line in soup.get_text("\n").splitlines():
+
+        line = clean(line)
+
+        if line:
+            lines.append(line)
+
+    return lines
+
+
+def find_name(lines, price_index):
     """
-    블리비 실제 페이지 구조:
+    가격 줄 위쪽에서 실제 상품명을 찾습니다.
 
-    시술명
-    ↓
-    할인율 + 이벤트가 + 정상가
+    실제 페이지는:
 
-    또는
+    상품명
+    설명
+    * 상품명
+    할인율 가격
 
-    옵션명
-    ↓
-    가격
+    형태도 있기 때문에 최대 12줄까지
+    위로 올라가며 찾습니다.
     """
 
-    lines = get_lines(html)
+    # 가장 가까운 줄부터 탐색
+    for distance in range(1, 13):
 
-    results = []
+        index = price_index - distance
+
+        if index < 0:
+            break
+
+        line = clean(lines[index])
+
+        if not line:
+            continue
+
+        # 날짜를 만나면 현재 이벤트 영역 종료
+        if re.fullmatch(
+            r"\d{4}-\d{2}-\d{2}까지",
+            line,
+        ):
+            break
+
+        if useless_line(line):
+            continue
+
+        # 설명 문구는 건너뜁니다.
+        description_words = [
+            "피부 상태에 따라",
+            "피부 깊은층",
+            "피부의",
+            "기존의",
+            "극초단파를 이용한",
+            "빈틈없이 꼼꼼하게",
+            "한번에",
+            "고민을",
+            "효과를",
+            "시술입니다",
+        ]
+
+        if any(
+            word in line
+            for word in description_words
+        ):
+            continue
+
+        # 상품명 후보
+        return line.lstrip("*").strip()
+
+    return None
+
+
+def scrape_category(category_id):
+
+    html = fetch(category_id)
+    lines = get_text_lines(html)
+
+    events = []
 
     source = (
         BASE_URL
@@ -247,109 +259,47 @@ def extract_events(html, category_id):
 
     for i, line in enumerate(lines):
 
-        # 다음 줄이 할인/가격 줄인지 확인
-        if i + 1 >= len(lines):
+        info = price_info(line)
+
+        if not info:
             continue
 
-        next_line = lines[i + 1]
-
-        parsed = parse_discount_price(
-            next_line
+        name = find_name(
+            lines,
+            i,
         )
 
-        plain_price = None
-
-        if not parsed:
-            plain_price = parse_plain_price(
-                next_line
-            )
-
-        # 바로 다음 줄이 가격이 아니면
-        # 시술명으로 판단하지 않음
-        if not parsed and plain_price is None:
+        if not name:
             continue
 
-        title = line
-
-        if not looks_like_treatment_name(
-            title
-        ):
+        # 너무 일반적인 이름 제외
+        if len(name) < 2:
             continue
 
-        # 이전 줄이 날짜/지점명인 경우 제외
-        if i > 0:
+        event = {
+            "category": CATEGORIES[
+                category_id
+            ],
+            "name": name,
+            "price": info["price"],
+            "normal": info["normal"],
+            "discount": info["discount"],
+            "option": (
+                name.startswith("옵션")
+                or name.startswith("추가")
+            ),
+            "source": source,
+        }
 
-            previous = lines[i - 1]
+        events.append(event)
 
-            if previous == "왕십리점":
-                continue
-
-            if re.fullmatch(
-                r"\d{4}-\d{2}-\d{2}까지",
-                previous
-            ):
-                continue
-
-        # 할인 이벤트
-        if parsed:
-
-            results.append({
-                "category": CATEGORIES[
-                    category_id
-                ],
-
-                "name": title,
-
-                "price": parsed[
-                    "price"
-                ],
-
-                "normal": parsed[
-                    "normal"
-                ],
-
-                "discount": parsed[
-                    "discount"
-                ],
-
-                "option": (
-                    title.startswith("옵션")
-                    or "옵션" in title[:10]
-                ),
-
-                "source": source,
-            })
-
-        # 옵션 등 할인율 없는 가격
-        else:
-
-            results.append({
-                "category": CATEGORIES[
-                    category_id
-                ],
-
-                "name": title,
-
-                "price": plain_price,
-
-                "normal": None,
-
-                "discount": None,
-
-                "option": (
-                    title.startswith("옵션")
-                    or "옵션" in title[:10]
-                ),
-
-                "source": source,
-            })
-
-    return results
+    return events
 
 
 def remove_duplicates(events):
 
-    unique = {}
+    result = []
+    seen = set()
 
     for event in events:
 
@@ -360,73 +310,66 @@ def remove_duplicates(events):
             event["normal"],
         )
 
-        if key not in unique:
-            unique[key] = event
+        if key in seen:
+            continue
 
-    return list(
-        unique.values()
-    )
+        seen.add(key)
+        result.append(event)
+
+    return result
 
 
-def scrape():
+def main():
 
     print("")
     print("==============================")
-    print(" 블리비 왕십리점 전체 이벤트")
+    print(" 블리비 왕십리점 이벤트 수집")
     print("==============================")
     print("")
 
     all_events = []
 
-    # 1~7 카테고리 전체 수집
     for category_id in range(1, 8):
 
-        category_name = CATEGORIES[
+        category = CATEGORIES[
             category_id
         ]
 
         print(
-            f"[{category_id}/7] "
-            f"{category_name} 수집 중..."
+            f"{category} 수집 중..."
         )
 
         try:
 
-            html = get_page(
-                category_id
-            )
-
-            events = extract_events(
-                html,
+            events = scrape_category(
                 category_id
             )
 
             print(
-                f"  → {len(events)}개"
+                f"  발견: {len(events)}개"
             )
 
             all_events.extend(events)
 
-        except Exception as error:
+        except Exception as e:
 
             print(
-                f"  → 오류: {error}"
+                f"  오류: {e}"
             )
 
-    # 중복 제거
     all_events = remove_duplicates(
         all_events
     )
 
     if not all_events:
-
         raise RuntimeError(
-            "이벤트를 하나도 찾지 못했습니다."
+            "수집된 이벤트가 없습니다."
         )
 
-    # 수집 시간
     collected_at = (
-        datetime.now(timezone.utc)
+        datetime.now(
+            timezone.utc
+        )
         .astimezone()
         .isoformat()
     )
@@ -436,16 +379,14 @@ def scrape():
             collected_at
         )
 
-    # 정렬
     all_events.sort(
         key=lambda x: (
             x["category"],
             x["name"],
-            x["price"],
+            x["price"] or 0,
         )
     )
 
-    # JSON 저장
     OUTPUT.write_text(
         json.dumps(
             all_events,
@@ -458,49 +399,42 @@ def scrape():
     print("")
     print("==============================")
     print(
-        f"총 {len(all_events)}개 수집 완료"
+        f"수집 완료: {len(all_events)}개"
     )
     print("==============================")
     print("")
 
     # 검색 테스트
-    test_keywords = [
+    for keyword in [
         "슈링크",
         "울쎄라",
         "인모드",
         "보톡스",
         "필러",
         "제모",
-    ]
-
-    for keyword in test_keywords:
+    ]:
 
         matches = [
-            event
-            for event in all_events
-            if keyword.lower()
-            in event["name"].lower()
+            x
+            for x in all_events
+            if keyword in x["name"]
         ]
 
         print(
-            f"검색 테스트: {keyword} → "
-            f"{len(matches)}개"
+            f"{keyword}: {len(matches)}개"
         )
 
-        # 슈링크가 있으면 실제 이름 출력
         if keyword == "슈링크":
 
-            for event in matches[:5]:
+            for item in matches[:5]:
 
                 print(
-                    "   ",
-                    event["name"],
-                    "→",
-                    f'{event["price"]:,}원'
+                    "  -",
+                    item["name"],
+                    "|",
+                    f'{item["price"]:,}원',
                 )
-
-    print("")
 
 
 if __name__ == "__main__":
-    scrape()
+    main()
