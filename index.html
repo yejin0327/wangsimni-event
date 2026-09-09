@@ -1,704 +1,660 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>왕십리점 이벤트 가격표</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    * {
-      box-sizing: border-box;
-    }
+<title>왕십리점 시술금액</title>
 
-    body {
-      margin: 0;
-      background: #f6f7f9;
-      color: #222;
-      font-family:
-        -apple-system,
-        BlinkMacSystemFont,
-        "Apple SD Gothic Neo",
-        "Noto Sans KR",
-        "Malgun Gothic",
-        sans-serif;
-    }
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    .container {
-      width: min(100% - 28px, 760px);
-      margin: 0 auto;
-      padding-bottom: 50px;
-    }
+body {
+  margin: 0;
+  background: #f5f6f8;
+  color: #222;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Apple SD Gothic Neo",
+    "Noto Sans KR",
+    "Malgun Gothic",
+    sans-serif;
+}
 
-    header {
-      padding: 30px 0 20px;
-    }
+button,
+input,
+select {
+  font: inherit;
+}
 
-    .title {
-      font-size: 27px;
-      font-weight: 800;
-      letter-spacing: -1.2px;
-      margin-bottom: 8px;
-    }
+.container {
+  width: min(100% - 24px, 760px);
+  margin: auto;
+  padding-bottom: 50px;
+}
 
-    .subtitle {
-      color: #777;
-      font-size: 14px;
-    }
+/* HEADER */
 
-    .update-box {
-      margin-top: 16px;
-      padding: 13px 15px;
-      background: #fff;
-      border: 1px solid #eee;
-      border-radius: 12px;
-      font-size: 13px;
-      color: #777;
-    }
+header {
+  padding: 28px 0 18px;
+}
 
-    .search-box {
-      background: white;
-      padding: 18px;
-      border-radius: 16px;
-      box-shadow: 0 3px 15px rgba(0,0,0,.04);
-      margin-bottom: 14px;
-    }
+.title {
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
 
-    .search-row {
-      display: flex;
-      gap: 8px;
-    }
+.subtitle {
+  margin-top: 7px;
+  color: #888;
+  font-size: 13px;
+}
 
-    input {
-      flex: 1;
-      min-width: 0;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      padding: 13px 14px;
-      font-size: 15px;
-      outline: none;
-    }
+.update {
+  margin-top: 15px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-size: 12px;
+  color: #777;
+}
 
-    input:focus {
-      border-color: #111;
-    }
+/* SEARCH */
 
-    button {
-      border: 0;
-      border-radius: 10px;
-      padding: 0 18px;
-      background: #111;
-      color: white;
-      font-size: 14px;
-      cursor: pointer;
-    }
+.search-box {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  border: 1px solid #eee;
+}
 
-    .category {
-      display: flex;
-      gap: 7px;
-      overflow-x: auto;
-      padding: 4px 0 2px;
-      margin-bottom: 15px;
-      scrollbar-width: none;
-    }
+.search {
+  display: flex;
+  gap: 7px;
+}
 
-    .category::-webkit-scrollbar {
-      display: none;
-    }
+.search input {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid #ddd;
+  border-radius: 9px;
+  padding: 12px;
+  outline: none;
+}
 
-    .category button {
-      flex: 0 0 auto;
-      padding: 9px 14px;
-      background: #fff;
-      color: #666;
-      border: 1px solid #e5e5e5;
-      border-radius: 30px;
-    }
+.search input:focus {
+  border-color: #111;
+}
 
-    .category button.active {
-      background: #111;
-      color: white;
-      border-color: #111;
-    }
+.search button {
+  background: #111;
+  color: white;
+  border: 0;
+  border-radius: 9px;
+  padding: 0 17px;
+  cursor: pointer;
+}
 
-    .options {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      padding: 4px 2px 0;
-    }
+/* CATEGORY */
 
-    .options label {
-      font-size: 13px;
-      color: #666;
-      cursor: pointer;
-    }
+.categories {
+  display: flex;
+  overflow-x: auto;
+  gap: 6px;
+  margin-top: 13px;
+  padding-bottom: 2px;
+  scrollbar-width: none;
+}
 
-    .result-info {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 20px 2px 10px;
-    }
+.categories::-webkit-scrollbar {
+  display: none;
+}
 
-    .result-count {
-      font-weight: 700;
-      font-size: 15px;
-    }
+.categories button {
+  flex: 0 0 auto;
+  background: white;
+  color: #777;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  padding: 8px 13px;
+  cursor: pointer;
+}
 
-    select {
-      border: 1px solid #ddd;
-      background: white;
-      padding: 8px 10px;
-      border-radius: 8px;
-    }
+.categories button.active {
+  color: white;
+  background: #111;
+  border-color: #111;
+}
 
-    .event-card {
-      background: white;
-      border-radius: 15px;
-      margin-bottom: 10px;
-      padding: 17px;
-      border: 1px solid #eee;
-    }
+/* OPTIONS */
 
-    .event-category {
-      font-size: 12px;
-      color: #999;
-      margin-bottom: 7px;
-    }
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 13px;
+}
 
-    .event-name {
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 1.45;
-      letter-spacing: -.3px;
-    }
+.options label {
+  color: #666;
+  font-size: 12px;
+}
 
-    .event-desc {
-      color: #888;
-      font-size: 12px;
-      margin-top: 5px;
-    }
+/* RESULT */
 
-    .price-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 15px;
-      gap: 10px;
-    }
+.result-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 2px 9px;
+}
 
-    .price {
-      font-size: 22px;
-      font-weight: 800;
-      color: #111;
-    }
+.result-count {
+  font-size: 14px;
+  font-weight: 700;
+}
 
-    .normal-price {
-      color: #aaa;
-      text-decoration: line-through;
-      font-size: 13px;
-      margin-top: 3px;
-    }
+.sort {
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  padding: 7px 9px;
+  font-size: 12px;
+}
 
-    .discount {
-      background: #fff0f1;
-      color: #e04455;
-      padding: 5px 8px;
-      border-radius: 7px;
-      font-size: 12px;
-      font-weight: 700;
-    }
+/* CARD */
 
-    .notice {
-      margin-top: 13px;
-      padding-top: 12px;
-      border-top: 1px solid #f0f0f0;
-      color: #888;
-      font-size: 11px;
-      line-height: 1.6;
-    }
+.card {
+  background: white;
+  border-radius: 14px;
+  border: 1px solid #eee;
+  padding: 16px;
+  margin-bottom: 9px;
+}
 
-    .source {
-      display: block;
-      margin-top: 12px;
-      color: #999;
-      font-size: 11px;
-      text-decoration: none;
-    }
+.card-category {
+  color: #999;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
 
-    .source:hover {
-      color: #111;
-    }
+.card-title {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: -.3px;
+}
 
-    .empty {
-      background: white;
-      padding: 45px 20px;
-      text-align: center;
-      border-radius: 15px;
-      color: #999;
-    }
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 14px;
+}
 
-    footer {
-      text-align: center;
-      color: #aaa;
-      font-size: 11px;
-      padding: 35px 0;
-    }
+.price {
+  font-size: 22px;
+  font-weight: 800;
+}
 
-    @media (max-width: 500px) {
-      .container {
-        width: min(100% - 20px, 760px);
-      }
+.normal {
+  margin-top: 3px;
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: line-through;
+}
 
-      header {
-        padding-top: 22px;
-      }
+.discount {
+  color: #e74c5b;
+  background: #fff0f2;
+  border-radius: 7px;
+  padding: 5px 7px;
+  font-size: 11px;
+  font-weight: 700;
+}
 
-      .title {
-        font-size: 23px;
-      }
+.option {
+  color: #8a6500;
+  background: #fff8df;
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-top: 7px;
+}
 
-      .search-box {
-        padding: 14px;
-      }
+.source {
+  display: block;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #f1f1f1;
+  color: #999;
+  text-decoration: none;
+  font-size: 11px;
+}
 
-      .search-row button {
-        padding: 0 14px;
-      }
+.source:hover {
+  color: #111;
+}
 
-      .event-card {
-        padding: 15px;
-      }
-    }
-  </style>
+.empty {
+  background: white;
+  border-radius: 14px;
+  text-align: center;
+  padding: 50px 20px;
+  color: #999;
+}
+
+/* LOADING */
+
+.loading {
+  background: white;
+  border-radius: 14px;
+  text-align: center;
+  padding: 45px 20px;
+  color: #888;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  color: #aaa;
+  font-size: 10px;
+  line-height: 1.6;
+  margin-top: 35px;
+}
+
+@media (max-width: 480px) {
+
+  .container {
+    width: calc(100% - 18px);
+  }
+
+  .title {
+    font-size: 23px;
+  }
+
+  .search button {
+    padding: 0 13px;
+  }
+
+  .card {
+    padding: 14px;
+  }
+
+  .price {
+    font-size: 20px;
+  }
+}
+</style>
 </head>
 
 <body>
 
 <div class="container">
 
-  <header>
-    <div class="title">왕십리점 이벤트 가격표</div>
-    <div class="subtitle">
-      블리비 왕십리점 이벤트 시술 가격을 한눈에 확인하세요.
-    </div>
+<header>
 
-    <div class="update-box">
-      📅 이벤트 기간:
-      <strong>2026-09-19까지</strong>
-      <br>
-      🔄 가격 정보는 원본 홈페이지 기준으로 업데이트됩니다.
-    </div>
-  </header>
-
-  <section class="search-box">
-
-    <div class="search-row">
-      <input
-        id="search"
-        type="search"
-        placeholder="원하는 시술명을 입력해주세요."
-      >
-      <button onclick="render()">검색</button>
-    </div>
-
-    <div class="category">
-      <button class="active" data-category="전체">전체</button>
-      <button data-category="쁘띠성형">쁘띠</button>
-      <button data-category="피부">피부</button>
-      <button data-category="리프팅">리프팅</button>
-      <button data-category="부스터">부스터</button>
-      <button data-category="제모">제모</button>
-      <button data-category="비만">비만</button>
-    </div>
-
-    <div class="options">
-      <label>
-        <input type="checkbox" id="hideOption">
-        옵션 시술 제외
-      </label>
-
-      <label>
-        <input type="checkbox" id="hideNormal">
-        정상가 숨기기
-      </label>
-    </div>
-
-  </section>
-
-  <div class="result-info">
-    <div class="result-count" id="count"></div>
-
-    <select id="sort" onchange="render()">
-      <option value="default">기본순</option>
-      <option value="low">가격 낮은순</option>
-      <option value="high">가격 높은순</option>
-      <option value="discount">할인율 높은순</option>
-    </select>
+  <div class="title">
+    왕십리점 시술금액
   </div>
 
-  <main id="results"></main>
+  <div class="subtitle">
+    블리비 왕십리점 이벤트 가격 조회
+  </div>
 
-  <footer>
-    본 페이지는 이벤트 가격 확인을 위한 정보 제공용 페이지입니다.<br>
-    실제 가격 및 이벤트 조건은 블리비 공식 홈페이지를 확인해주세요.
-  </footer>
+  <div class="update">
+    📌 이벤트 기간
+    <strong id="eventDate">확인 중...</strong>
+    <br>
+    🔄 데이터는 블리비 공식 이벤트 페이지 기준으로 업데이트됩니다.
+  </div>
+
+</header>
+
+
+<section class="search-box">
+
+  <div class="search">
+
+    <input
+      id="searchInput"
+      type="search"
+      placeholder="원하는 시술명을 입력해주세요."
+      autocomplete="off"
+    >
+
+    <button id="searchButton">
+      검색
+    </button>
+
+  </div>
+
+
+  <div class="categories">
+
+    <button class="active" data-category="전체">
+      전체
+    </button>
+
+    <button data-category="기획전">
+      기획전
+    </button>
+
+    <button data-category="쁘띠성형">
+      쁘띠
+    </button>
+
+    <button data-category="피부">
+      피부
+    </button>
+
+    <button data-category="리프팅">
+      리프팅
+    </button>
+
+    <button data-category="부스터">
+      부스터
+    </button>
+
+    <button data-category="제모">
+      제모
+    </button>
+
+    <button data-category="비만">
+      비만
+    </button>
+
+  </div>
+
+
+  <div class="options">
+
+    <label>
+      <input
+        type="checkbox"
+        id="hideOption"
+      >
+      옵션 시술 제외
+    </label>
+
+    <label>
+      <input
+        type="checkbox"
+        id="hideNormal"
+      >
+      정상가 숨기기
+    </label>
+
+  </div>
+
+</section>
+
+
+<div class="result-bar">
+
+  <div
+    class="result-count"
+    id="resultCount"
+  >
+    이벤트 불러오는 중...
+  </div>
+
+  <select
+    class="sort"
+    id="sort"
+  >
+
+    <option value="default">
+      기본순
+    </option>
+
+    <option value="low">
+      가격 낮은순
+    </option>
+
+    <option value="high">
+      가격 높은순
+    </option>
+
+    <option value="discount">
+      할인율 높은순
+    </option>
+
+  </select>
 
 </div>
+
+
+<main id="results">
+
+  <div class="loading">
+    이벤트 정보를 불러오는 중입니다...
+  </div>
+
+</main>
+
+
+<footer>
+
+  본 페이지는 이벤트 가격 확인을 위한 정보 제공용 페이지입니다.<br>
+
+  실제 가격 및 이벤트 조건은
+  <a
+    href="https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6"
+    target="_blank"
+    rel="noopener"
+  >
+    블리비 공식 홈페이지
+  </a>
+  에서 확인해주세요.
+
+</footer>
+
+</div>
+
 
 <script>
 
 const SOURCE_URL =
-  "https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6";
+"https://www.velyb.kr/community/community01.php?tb=event_multi&etc5=%EC%99%95%EC%8B%AD%EB%A6%AC%EC%A0%90&sField=6";
 
-const events = [
-
-  {
-    category: "제모",
-    name: "(여자) 겨드랑이/인중 제모(아포지 플러스) 체험가",
-    price: 500,
-    normal: 900,
-    discount: 44
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 겨드랑이/인중 제모(아포지 플러스) 1회",
-    price: 2500,
-    normal: 3000,
-    discount: 16
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 겨드랑이/인중 제모(아포지 플러스) 3회",
-    price: 6900,
-    normal: 9000,
-    discount: 23
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 겨드랑이/인중 제모(아포지 플러스) 5회",
-    price: 8900,
-    normal: 15000,
-    discount: 40
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 겨드랑이/인중 제모(아포지 플러스) 1년 구독권",
-    price: 9900,
-    normal: 19700,
-    discount: 49
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 입술밑 제모(아포지 플러스) 1회",
-    price: 6900,
-    normal: 11000,
-    discount: 37
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 입술밑 제모(아포지 플러스) 3회",
-    price: 19000,
-    normal: 33000,
-    discount: 42
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 입술밑 제모(아포지 플러스) 5회",
-    price: 29000,
-    normal: 55000,
-    discount: 47
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 앞턱/미간 제모(아포지 플러스) 1회",
-    price: 4900,
-    normal: 5800,
-    discount: 15
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 얼굴전체 제모(아포지 플러스) 1회",
-    price: 39000,
-    normal: 65000,
-    discount: 40
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 얼굴전체 제모(아포지 플러스) 3회",
-    price: 109000,
-    normal: 195000,
-    discount: 44
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 얼굴전체 제모(아포지 플러스) 5회",
-    price: 169000,
-    normal: 325000,
-    discount: 48
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 팔하완/팔상완 제모(아포지 플러스) 체험가",
-    price: 8900,
-    normal: 17400,
-    discount: 48
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 팔하완 제모(아포지 플러스) 1회",
-    price: 19000,
-    normal: 25000,
-    discount: 24
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 팔하완 제모(아포지 플러스) 3회",
-    price: 55000,
-    normal: 75000,
-    discount: 26
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 팔하완 제모(아포지 플러스) 5회",
-    price: 79000,
-    normal: 125000,
-    discount: 36
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 팔상완 제모(아포지 플러스) 1회",
-    price: 24900,
-    normal: 40000,
-    discount: 37
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 팔전체 제모(아포지 플러스) 1회",
-    price: 39000,
-    normal: 55000,
-    discount: 29
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 종아리 + 무릎 제모(아포지 플러스) 체험가",
-    price: 8900,
-    normal: 17400,
-    discount: 48
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 종아리 + 무릎 제모(아포지 플러스) 1회",
-    price: 29000,
-    normal: 45000,
-    discount: 35
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 종아리 + 무릎 제모(아포지 플러스) 3회",
-    price: 79000,
-    normal: 135000,
-    discount: 41
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 종아리 + 무릎 제모(아포지 플러스) 5회",
-    price: 129000,
-    normal: 225000,
-    discount: 42
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 허벅지 제모(아포지 플러스) 1회",
-    price: 49000,
-    normal: 70000,
-    discount: 30
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 다리전체 제모(아포지 플러스) 1회",
-    price: 69000,
-    normal: 100000,
-    discount: 31
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 무릎 제모(아포지 플러스) 1회",
-    price: 9900,
-    normal: 11000,
-    discount: 10
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 발등/발가락 제모(아포지 플러스) 1회",
-    price: 9900,
-    normal: 11000,
-    discount: 10
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 브라질리언 제모(아포지 플러스) 1회",
-    price: 59000,
-    normal: 80000,
-    discount: 26
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 브라질리언 + 항문 제모(아포지 플러스) 1회",
-    price: 69000,
-    normal: 110000,
-    discount: 37
-  },
-
-  {
-    category: "제모",
-    name: "(여자) 비키니라인 제모(아포지 플러스) 1회",
-    price: 29000,
-    normal: 33000,
-    discount: 12
-  },
-
-  {
-    category: "제모",
-    name: "(남자) 겨드랑이/인중 제모(아포지 플러스) 체험가",
-    price: 1000,
-    normal: 1990,
-    discount: 49
-  },
-
-  {
-    category: "제모",
-    name: "(남자) 겨드랑이/인중 제모(아포지 플러스) 1회",
-    price: 9000,
-    normal: 12000,
-    discount: 25
-  },
-
-  {
-    category: "제모",
-    name: "(남자) 겨드랑이/인중 제모(아포지 플러스) 3회",
-    price: 24900,
-    normal: 36000,
-    discount: 30
-  },
-
-  {
-    category: "제모",
-    name: "(남자) 겨드랑이/인중 제모(아포지 플러스) 5회",
-    price: 34900,
-    normal: 60000,
-    discount: 41
-  },
-
-  {
-    category: "제모",
-    name: "옵션1) 사타구니 제모 5회 추가",
-    price: 89000,
-    normal: null,
-    discount: null,
-    option: true
-  }
-
-];
-
+let events = [];
 
 let currentCategory = "전체";
 
 
-function money(number) {
-  if (number === null || number === undefined) return "";
-  return number.toLocaleString("ko-KR") + "원";
+/* 숫자를 원화로 */
+
+function money(value) {
+
+  if (
+    value === null ||
+    value === undefined ||
+    value === ""
+  ) {
+    return "";
+  }
+
+  return Number(value).toLocaleString("ko-KR") + "원";
 }
 
+
+/* JSON 불러오기 */
+
+async function loadEvents() {
+
+  const results =
+    document.getElementById("results");
+
+  try {
+
+    const response =
+      await fetch(
+        "events.json?cache=" + Date.now()
+      );
+
+    if (!response.ok) {
+      throw new Error("events.json을 찾을 수 없습니다.");
+    }
+
+    events = await response.json();
+
+    if (!Array.isArray(events)) {
+      throw new Error("데이터 형식이 올바르지 않습니다.");
+    }
+
+    updateDate();
+
+    render();
+
+  } catch (error) {
+
+    console.error(error);
+
+    results.innerHTML = `
+      <div class="empty">
+        <strong>이벤트 데이터를 불러오지 못했습니다.</strong>
+        <br><br>
+        자동 업데이트가 아직 실행되지 않았을 수 있습니다.
+      </div>
+    `;
+
+    document.getElementById("resultCount").textContent =
+      "데이터 준비 중";
+
+  }
+
+}
+
+
+/* 업데이트 시간 */
+
+function updateDate() {
+
+  if (!events.length) return;
+
+  const date =
+    events[0].collected_at;
+
+  if (!date) {
+
+    document.getElementById("eventDate").textContent =
+      "블리비 공식 홈페이지 확인";
+
+    return;
+  }
+
+  const d = new Date(date);
+
+  document.getElementById("eventDate").textContent =
+    " " +
+    d.toLocaleString("ko-KR") +
+    " 기준";
+
+}
+
+
+/* 검색 */
 
 function render() {
 
   const keyword =
     document
-      .getElementById("search")
+      .getElementById("searchInput")
       .value
       .trim()
       .toLowerCase();
 
   const hideOption =
-    document.getElementById("hideOption").checked;
+    document
+      .getElementById("hideOption")
+      .checked;
 
   const hideNormal =
-    document.getElementById("hideNormal").checked;
+    document
+      .getElementById("hideNormal")
+      .checked;
 
   const sort =
-    document.getElementById("sort").value;
+    document
+      .getElementById("sort")
+      .value;
 
-  let filtered = events.filter(event => {
 
-    if (
-      currentCategory !== "전체" &&
-      event.category !== currentCategory
-    ) {
-      return false;
-    }
+  let filtered =
+    events.filter(event => {
 
-    if (
-      hideOption &&
-      event.option
-    ) {
-      return false;
-    }
+      if (
+        currentCategory !== "전체" &&
+        event.category !== currentCategory
+      ) {
+        return false;
+      }
 
-    if (
-      keyword &&
-      !event.name.toLowerCase().includes(keyword)
-    ) {
-      return false;
-    }
+      if (
+        hideOption &&
+        event.option
+      ) {
+        return false;
+      }
 
-    return true;
-  });
+      if (
+        keyword &&
+        !String(event.name || "")
+          .toLowerCase()
+          .includes(keyword)
+      ) {
+        return false;
+      }
 
+      return true;
+
+    });
+
+
+  /* 정렬 */
 
   if (sort === "low") {
-    filtered.sort((a,b) => a.price - b.price);
+
+    filtered.sort(
+      (a,b) =>
+        Number(a.price || 0) -
+        Number(b.price || 0)
+    );
+
   }
+
 
   if (sort === "high") {
-    filtered.sort((a,b) => b.price - a.price);
+
+    filtered.sort(
+      (a,b) =>
+        Number(b.price || 0) -
+        Number(a.price || 0)
+    );
+
   }
+
 
   if (sort === "discount") {
+
     filtered.sort(
-      (a,b) => (b.discount || 0) - (a.discount || 0)
+      (a,b) =>
+        Number(b.discount || 0) -
+        Number(a.discount || 0)
     );
+
   }
 
 
-  document.getElementById("count").textContent =
+  document.getElementById("resultCount").textContent =
     `검색 결과 ${filtered.length}개`;
 
 
@@ -719,110 +675,187 @@ function render() {
 
 
   results.innerHTML =
-    filtered.map(event => {
+    filtered
+      .map(event => {
 
-      return `
-        <article class="event-card">
+        const normalPrice =
+          !hideNormal && event.normal
+          ? `
+            <div class="normal">
+              ${money(event.normal)}
+            </div>
+          `
+          : "";
 
-          <div class="event-category">
-            ${event.category}
-          </div>
 
-          <div class="event-name">
-            ${event.name}
-          </div>
+        const discount =
+          event.discount
+          ? `
+            <span class="discount">
+              ${event.discount}% OFF
+            </span>
+          `
+          : "";
 
-          <div class="price-row">
 
-            <div>
+        const option =
+          event.option
+          ? `
+            <div class="option">
+              옵션/추가 시술
+            </div>
+          `
+          : "";
 
-              <div class="price">
-                ${money(event.price)}
+
+        return `
+
+          <article class="card">
+
+            <div class="card-category">
+              ${event.category || "이벤트"}
+            </div>
+
+            <div class="card-title">
+              ${escapeHTML(event.name || "")}
+            </div>
+
+            ${option}
+
+            <div class="card-price">
+
+              <div>
+
+                <div class="price">
+                  ${money(event.price)}
+                </div>
+
+                ${normalPrice}
+
               </div>
 
-              ${
-                !hideNormal && event.normal
-                ? `
-                  <div class="normal-price">
-                    ${money(event.normal)}
-                  </div>
-                `
-                : ""
-              }
+              ${discount}
 
             </div>
 
-            ${
-              event.discount
-              ? `
-                <div class="discount">
-                  ${event.discount}% OFF
-                </div>
-              `
-              : ""
-            }
 
-          </div>
+            <a
+              class="source"
+              href="${SOURCE_URL}"
+              target="_blank"
+              rel="noopener"
+            >
+              블리비 공식 이벤트 페이지에서 확인 →
+            </a>
 
-          <a
-            class="source"
-            href="${SOURCE_URL}"
-            target="_blank"
-            rel="noopener"
-          >
-            원본 이벤트 페이지에서 확인 →
-          </a>
+          </article>
 
-        </article>
-      `;
+        `;
 
-    }).join("");
+      })
+      .join("");
+
 }
 
 
-document.querySelectorAll(".category button")
-.forEach(button => {
+/* HTML 안전 처리 */
 
-  button.addEventListener("click", () => {
+function escapeHTML(value) {
 
-    document
-      .querySelectorAll(".category button")
-      .forEach(b => b.classList.remove("active"));
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
 
-    button.classList.add("active");
+}
 
-    currentCategory =
-      button.dataset.category;
 
-    render();
-
-  });
-
-});
-
+/* 카테고리 */
 
 document
-  .getElementById("search")
-  .addEventListener("keydown", event => {
+  .querySelectorAll(".categories button")
+  .forEach(button => {
 
-    if (event.key === "Enter") {
-      render();
-    }
+    button.addEventListener(
+      "click",
+      () => {
+
+        document
+          .querySelectorAll(".categories button")
+          .forEach(btn =>
+            btn.classList.remove("active")
+          );
+
+        button.classList.add("active");
+
+        currentCategory =
+          button.dataset.category;
+
+        render();
+
+      }
+    );
 
   });
 
+
+/* 검색 버튼 */
+
+document
+  .getElementById("searchButton")
+  .addEventListener(
+    "click",
+    render
+  );
+
+
+/* 엔터 검색 */
+
+document
+  .getElementById("searchInput")
+  .addEventListener(
+    "keydown",
+    event => {
+
+      if (event.key === "Enter") {
+        render();
+      }
+
+    }
+  );
+
+
+/* 옵션 */
 
 document
   .getElementById("hideOption")
-  .addEventListener("change", render);
+  .addEventListener(
+    "change",
+    render
+  );
 
 
 document
   .getElementById("hideNormal")
-  .addEventListener("change", render);
+  .addEventListener(
+    "change",
+    render
+  );
 
 
-render();
+document
+  .getElementById("sort")
+  .addEventListener(
+    "change",
+    render
+  );
+
+
+/* 시작 */
+
+loadEvents();
 
 </script>
 
